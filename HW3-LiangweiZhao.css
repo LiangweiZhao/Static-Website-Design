@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top{ height: 80px; width:1380px;padding:10px;} 
+.lefttop{ 
+    float:left;
+    width:150px;
+    height:50px;
+    padding-left: 110px; 
+    padding-top: 30px;
+    font-family:sans-serif;
+    font-size: 20px;
+}
+.righttop{ 
+    float:left;
+    width:230px;
+    height:50px;
+    padding-left: 870px;
+    padding-top: 30px;
+    font-size: 17px;
+    font-family: sans-serif;
+    color: darkgray;
+}
+a:link {
+    color: gainsboro;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+}
+a:visited{
+    color:inherit;
+}
+
+.lawyer-image{
+    background-image: url(http://csci571.com/hw/hw3/images/lawyer.jpg);
+    width: 1380px;
+    height: 700px;
+    background-position: -50px 0px;
+    background-repeat: no-repeat;
+    padding-left: 90px;
+    padding-top: 170px;
+}
+.signUpBG{
+    width: 450px;
+    height: 510px;
+    background-color:#0B3C5D;
+    padding-left: 45px;
+    padding-top: 60px;
+}
+.signUpWord1{
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #EAF9FB;
+}
+.signUpWord2{
+    font-size: 46px;
+    font-family: sans-serif;
+    color: #EAF9FB;
+}
+.signUpWord3{
+    font-size: 17px;
+    font-family: sans-serif;
+    color: #E8E10F;
+    font-style: italic;
+    padding-bottom: 20px;
+}
+.inputBlk{
+    font-size: 15px;
+    height: 40px;
+    width: 350px;
+    padding-left: 8px;
+    margin-bottom: 20px;
+}
+.signUpBtn{
+    height: 40px;
+    width: 195px;
+    border: 0;
+    background-color: #F7DE18;
+    outline-color: #F7DE18;
+    color: black;
+}
+.signUpBtn:hover{
+    background-color: black;
+    color: white;
+}
+.text{
+    height: 350px;
+    width: 1472px;   
+}
+.feature{
+    height: 30px;
+    width: 393px;
+    float: left;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding-left: 80px;
+    padding-top: 100px;
+}
+.description{
+    padding-top: 20px;
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 25px;
+    color: gray;
+}
+
+.end1{
+    height: 180px;
+    width: 1472px;
+    background-color: #F4F4F4;
+    text-align: center;
+    font-family: sans-serif;
+    line-height: 30px;
+    padding-top: 125px;
+}
+
+.cover{
+    width: 1472px;
+    height: 800px;
+}
+.glasses-image{
+    height: 800px;
+    width: 1472px;
+    z-index: -1;
+    filter: grayscale(90%);
+    background-image: url("http://csci571.com/hw/hw3/images/glasses.png");
+    background-repeat: no-repeat;
+    background-size:2400px 1400px;
+    background-position: -400px 0px;
+    background-attachment: fixed;
+    background-color: gray;
+    opacity: 0.4;
+    text-align: center;
+    padding-top: 80px;
+}
+.text2{
+    width: 1472px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    float: left;
+    padding-top: 70px;
+}
+#text2{
+    font-size: 15px;
+    font-family: sans-serif;
+    padding-top: 20px;
+    color: #A2A2A2;
+}
+.box{
+    z-index: 2;
+    width: 380px;
+    height: 500px;
+    float: left;
+    margin-left: 80px;
+    margin-top: 90px;
+    background-color: white;
+    text-align: center;
+    position: relative;
+}
+.boxBG{
+    z-index: -1;
+    width: 380px;
+    height: 500px;
+    background-image: url("http://csci571.com/hw/hw3/images/grid.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.2;
+    position: absolute;
+}
+.boxCover{
+    z-index: 3;
+    width: 380px;
+    height: 500px;
+}
+h1{
+    padding-top: 70px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: sans-serif;
+}
+h2{
+    padding-top: 15px;
+    font-size: 18px;
+    font-weight: 100;
+    font-family: sans-serif;
+}
+h3{
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 27px;
+}
+.buyBtn{
+    z-index: 3;
+    background-color: #0B3C5D;
+    font-size:15px; 
+    border: 0;
+    height: 60px;
+    width: 150px;
+    color: white;
+}
+.buyBtn:hover{
+    background-color: black;
+    color: white;
+}
+
+.notebook-image{
+    z-index: -1;
+    width: 1472px;
+    height: 550px;
+    background-image: url("http://csci571.com/hw/hw3/images/notebook.jpg");
+    background-size: 1500px 990px;
+    background-repeat: no-repeat;
+    background-position: -30px -200px;
+}
+.notebookCover{
+    height: 550px;
+    width: 1472px;
+    background-color: rgb(20,70,110,0.8);
+    position:relative;
+}
+.bookImgTxt{
+    z-index: 1;
+    height: 300px;
+    width: 1472px;
+    text-align: center;
+    font-family: sans-serif;
+    color:white;
+    padding-top: 200px;
+}
+.p1{
+    font-size: 30px;
+}
+.p2{
+    font-size: 15px;
+    margin-top: 20px;
+}
+.freeBtn{
+    margin-top: 40px;
+    height: 45px;
+    width: 220px;
+    border: 0;
+    background-color: #F7DE18;
+    outline-color: #F7DE18;
+    color: black; 
+}
+.freeBtn:hover{
+    background-color: black;
+    color: white;
+}
+.end2{
+    height: 300px;
+    width: 1472px;
+    background-color: #1E2430;
+}
+.endTitle{
+    width: 1472px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-family: sans-serif;
+    padding-top: 80px;
+}
+#endTitle{
+    font-size: 15px;
+    font-family: sans-serif;
+    padding-top: 15px;
+    padding-bottom: 40px;
+    color:grey;
+}
+.icon1{
+    height: 50px;
+    width: 50px;
+    float: left;
+    background-image: url("http://csci571.com/hw/hw3/images/facebook.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 550px;
+}
+.icon2{
+    height: 50px;
+    width: 50px;
+    float: left;
+    background-image: url("http://csci571.com/hw/hw3/images/googleplus.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 36px;
+}
+.icon3{
+    height: 50px;
+    width: 50px;
+    float: left;
+    background-image: url("http://csci571.com/hw/hw3/images/instagram.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 36px;
+}
+.icon4{
+    height: 50px;
+    width: 50px;
+    float: left;
+    background-image: url("http://csci571.com/hw/hw3/images/twitter.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 36px;
+}
+.icon5{
+    height: 50px;
+    width: 50px;
+    float: left;
+    background-image: url("http://csci571.com/hw/hw3/images/youtube.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 36px;
+}
+
